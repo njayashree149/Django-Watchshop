@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+{% block body_block %} 
+
+<form method='post' enctype="multipart/form-data">
+    {% csrf_token %}    
+<div class="form-box">
+    {{form.as_p}}
+
+    <button type="submit" class="submit_button">Login</button>
+</div>
+
+
+
+
+{% endblock %}
