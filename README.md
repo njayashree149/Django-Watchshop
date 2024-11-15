@@ -1,1 +1,1 @@
-\/# django-watchshop
+# django-watchshop
